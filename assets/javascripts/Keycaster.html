@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!-- saved from url=(0034)http://mottie.github.io/Keycaster/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+ <script type="text/javascript" src="./Keycaster_files/jquery.min.js"></script>
+
+ <style type="text/css">
+  body { background: #333; color: #ddd; padding: 10px 50px; }
+  a:link { color: #fc0; text-decoration: none; }
+  a:hover { color: #fff; }
+  a:visited,a:active { color: #f80; }
+ </style>
+
+ <link href="./Keycaster_files/keycaster.css" type="text/css" rel="stylesheet">
+ <script src="./Keycaster_files/jquery.keycaster.js" type="text/javascript"></script>
+ <script type="text/javascript">
+ $(document).ready(function(){
+  keycaster({
+   // try changing these options to see the differences
+   showShift   : true,  // Ignore shift key
+   showUnKey   : false, // if true, releasing meta keys will add an "un-" meta key message
+   showBksp    : true,  // if true, the backspace key will show
+   imgUrl      : 'images/click-blue.png' // replace "blue" with "red", "green", "blue", "white", "grey" or "black" to see other colors
+  });
+ });
+ </script>
+
+<style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
+.en-markup-crop-options {
+    top: 18px !important;
+    left: 50% !important;
+    margin-left: -100px !important;
+    width: 200px !important;
+    border: 2px rgba(255,255,255,.38) solid !important;
+    border-radius: 4px !important;
+}
+
+.en-markup-crop-options div div:first-of-type {
+    margin-left: 0px !important;
+}
+</style></head><body data-pinterest-extension-installed="cr1.39.1">
+
+<h1><a href="https://github.com/Mottie/Keycaster">Keycaster</a></h1>
+<h2>Keycaster for your browser (version 1.1)</h2>
+ A jQuery plugin that adds a keystroke and mouse visualizer to your browser window. Similar to <a href="https://github.com/sdeken/keycastr">keycastr</a> application for the mac, except this only works inside the browser window.
+
+<br>
+<h2>Features</h2>
+<ul>
+ <li>Works with jQuery versions 1.2+.</li>
+ <li>Keycaster will show all typed keys when the browser window has focus.</li>
+ <li>Mouse clicks anywhere inside the browser viewport will be visualized. Different colors (blue, black, green, grey, red &amp; white) provided.</li>
+ <li>If the click animation seen on mouseup interferes with any page elements, use "shift-click" to force the animation to occur under the element.</li>
+ <li>Download and install this plugin on your site to always have this feature available.</li>
+ <li>Or, just use the Bookmarklet:
+  <ul>
+   <li>This bookmarklet will allow you to use Keycaster on any site without needing to install it.</li>
+   <!-- change the url in the "keycasterfiles" variable here, if you want to point to files in your own domain -->
+   <li>Drag this bookmarklet (<strong><a href="javascript:var%20keycasterfiles='http://mottie.github.com/Keycaster/';(function(){var%20getScript=function(url){var%20script=document.createElement('script');script.src=url;document.getElementsByTagName('head')[0].appendChild(script)};if(typeof%20jQuery==='undefined'){getScript('http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js')}if(typeof%20keycaster==='undefined'){getScript(keycasterfiles+'js/jquery.keycaster.js')}if(typeof%20keycasterbookmarklet==='undefined'){getScript(keycasterfiles+'bookmarklet/bookmarklet.js')}else%20if%20(jQuery){jQuery('.keycaster-wrap').show()}})();">Keycaster</a></strong>) into your browser bookmarks and just click on it when you need it.</li>
+   <li>Once loaded, click the bookmarklet again or type Shift-F1 to open the options panel.</li>
+   <li>Pressing escape or clicking the "x" in the upper right corner will close the options panel.</li>
+  </ul>
+ </li>
+</ul>
+
+<h2>Demo</h2>
+Type or click anywhere on the page
+
+<br><br>
+
+Input:<br>
+<input type="text">
+
+<br><br>
+
+Text Area:<br>
+<textarea></textarea>
+
+<br><br>
+
+
+Radio:<br>
+<input type="radio" name="test" checked="">
+<input type="radio" name="test">
+<input type="radio" name="test">
+
+<br><br>
+
+Select:<br>
+<select>
+ <option>Option 1</option>
+ <option>Option 2</option>
+ <option>Option 3</option>
+</select>
+
+<br><br>
+
+<hr>
+
+<ul>
+ <li>Note: When clicking on the select box above, Safari will only show mouse click animation on mousedown and since there isn't a way to differentiate Chrome &amp; Safari, Chrome will show animation on both mousedown &amp; mouseup.</li>
+</ul>
+
+<ul id="keycaster" style="display: none;"></ul></body></html>
