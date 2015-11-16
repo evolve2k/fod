@@ -1,23 +1,95 @@
+/* purple: #9013FE */
+/* blue: #4DB9FF */
+/*Green: #64C236*/
+
+body{
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 400;
+  font-size: 16pt;
+  background-color: #4DB9FF;
+  color: white;
+}
+
 .hero{
   height: 20rem;
+  background-color: #9013FE;
+  position: relative;
+}
+
+.hero img{
+  top:0;
+  right:0;
+  height: 30%;
+  padding-left: 60%;
 }
 
 .hero > h1{
-  font-size: 400%;
-  padding-top:10rem;
+  font-size: 500%;
+  margin-top: 0;
+  /*padding-top:10rem;*/
   text-align: center;
-  line-height: 100%;
+  line-height: 70%;
+  padding-bottom: 0;
 }
 
-body{
+.hero > h2{
+  padding-top: 0;
   font-size: 100%;
+  text-align: center;
+  line-height: 100%;
+  color: #4DB9FF;
+}
+
+.twitter-timeline{
+  width: 30rem;
+}
+
+.comic{
+  max-width: 28rem;
+  padding-top: 6rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
   margin: auto;
-  max-width: 40em;
-  padding-left: 1.5em;
-  padding-right: 3em;
-  background-color: #4DB9FF;
-  color: white;
-  line-height: 150%;
+}
+
+.comic img{
+  height: 6rem;
+  display: inline;
+}
+
+.comic p{
+  font-family: "Classic Comic", sans-serif;
+  font-size: 66.67%;
+  color: black;
+  background-color: white;
+  padding: 0.5rem;
+  line-height: 100%;
+  margin-left: 6rem;
+  margin-right: 3rem;
+  margin-bottom: 4rem;
+  border-color: black;
+  border-style: solid;
+  border-width: 0.2rem;
+  width: 14rem;
+}
+
+.girl{
+  float: left;
+}
+
+.boy{
+  float: right;
+}
+
+.talk{
+
+}
+
+iframe{
+  height: 17.82rem;   /* .575 */
+  width: 31rem;
+  /*width: "500";
+  height: "281";*/
 }
 
 main{
@@ -33,14 +105,21 @@ body > header > h1 {
 
 h1, h2{
   font-family:"FatFrank", sans-serif;
+  letter-spacing: .1rem;
+  line-height: 3rem;
 }
 
 h2{
-  letter-spacing: .06rem;
+  line-height: 100%;
 }
 
 section{
+  max-width: 40em;
   padding-top: 1rem;
+  margin: auto;
+  padding-left: 1.5em;
+  padding-right: 3em;
+  line-height: 150%;
 }
 
 a {
@@ -51,7 +130,9 @@ a:visited {
   color: inherit;
 }
 
-h1, h2, h3 {
+ol{
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .lead::first-letter {
@@ -62,7 +143,61 @@ h1, h2, h3 {
   font-weight: bold;
 }
 
+.listlead{
+  margin-bottom: 0;
+}
+
+.grass{
+  background-image: url(../images/grass.png);
+  background-position: top;
+  height: 10rem;
+
+}
+
+.grass-dirt{
+  height: 60rem;
+  background: linear-gradient(#64C236, #A9823D);
+}
+
+.dirt{
+  height: 60rem;
+  background-color: #A9823D;
+}
+
+.dirt-earth{
+  height: 60rem;
+  background: linear-gradient(#A9823D, black);
+
+}
+
+#needed{
+  color: white;
+  background-color: #64C236;
+}
+
+#help{
+  color: white;
+  background-color: #A9823D;
+}
+
+#secrets{
+  color: white;
+  background-color: black;
+}
+
+#separation{
+  color: white;
+  background-color: black;
+}
+#addiction{
+  color: white;
+  background-color: black;
+}
+
 footer{
+  margin: 0;
+  color: white;
+  background-color: black;
   font-style: italic;
 }
 
