@@ -42,6 +42,7 @@ body{
 
 .twitter-timeline{
   width: 30rem;
+  color: #4DB9FF;
 }
 
 .comic{
@@ -155,18 +156,19 @@ ol{
 }
 
 .grass-dirt{
-  height: 60rem;
-  background: linear-gradient(#64C236, #A9823D);
+  height: 50rem;
+  background: linear-gradient(#64C236, #1D0500);
 }
 
 .dirt{
   height: 60rem;
-  background-color: #A9823D;
+  /*background-color: #A9823D;*/
 }
 
 .dirt-earth{
   height: 60rem;
-  background: linear-gradient(#A9823D, black);
+  /*background: linear-gradient(#A9823D, black);*/
+  background: linear-gradient(#64C236, #1D0500);
 
 }
 
@@ -182,22 +184,22 @@ ol{
 
 #secrets{
   color: white;
-  background-color: black;
+  background-color: #1D0500;
 }
 
 #separation{
   color: white;
-  background-color: black;
+  background-color: #1D0500;
 }
 #addiction{
   color: white;
-  background-color: black;
+  background-color: #1D0500;
 }
 
 footer{
   margin: 0;
   color: white;
-  background-color: black;
+  background-color: #1D0500;
   font-style: italic;
 }
 
