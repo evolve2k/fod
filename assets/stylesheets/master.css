@@ -7,7 +7,7 @@ body{
   font-weight: 400;
   font-size: 16pt;
   background-color: #4DB9FF;
-  color: white;
+  color: black;
 }
 
 .apple-base{
@@ -17,6 +17,18 @@ body{
   background-size: 60%;
   padding-top: 2.8rem;
   padding-right: .6rem;
+}
+
+.content{
+  background-color: white;
+  color: black;
+  opacity: 50%;
+}
+
+#donut{
+  height: 4rem;
+  margin-bottom: -1rem;
+  margin-left: -1.5rem;
 }
 
 .hero{
@@ -129,20 +141,23 @@ body > header > h1 {
 h1, h2{
   font-family:"FatFrank", sans-serif;
   letter-spacing: .1rem;
-  line-height: 3rem;
+  line-height: 1rem;
+  margin-bottom: 0rem;
 }
 
-h2{
-  line-height: 100%;
+p{
+  line-height: 1.25rem;
+  padding-bottom: 0rem;
 }
 
 section{
   max-width: 40em;
   padding-top: 1rem;
+  padding-bottom: 1rem;
   padding-left: 1.5em;
   padding-right: 3em;
   line-height: 150%;
-  margin: auto;
+  margin: 0 auto;
 }
 
 a{
@@ -156,6 +171,12 @@ a:visited {
 ol{
   margin-top: 0;
   padding-top: 0;
+}
+
+#definition-of-fod{
+  font-size: 150%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .lead::first-letter {
