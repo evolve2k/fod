@@ -37,7 +37,7 @@ body{
 }
 
 #donut{
-  height: 4rem;
+  height: 3rem;
   margin-bottom: -1rem;
   margin-left: -1.5rem;
 }
@@ -96,6 +96,7 @@ body{
 .comic p{
   font-family: "classic-comic", sans-serif;
   font-size: 66.67%;
+  text-align: center;
   color: black;
   background-color: white;
   padding: 0.5rem;
@@ -268,7 +269,7 @@ body > header > h1 {
 h1, h2{
   font-family:"FatFrank", sans-serif;
   letter-spacing: .1rem;
-  line-height: 2rem;
+  line-height: 3rem;
   margin-bottom: 0rem;
   color: #4DB9FF;
 }
@@ -276,6 +277,7 @@ h1, h2{
 p{
   line-height: 1.25rem;
   padding-bottom: 0rem;
+  line-height: 110%;
 }
 
 section{
@@ -420,11 +422,11 @@ footer{
   body{
     font-size: 20pt;
   }
-  p{
-    line-height: 110%;
-  }
   .comic p{
     width: 18rem;
+  }
+  #donut{
+    height: 4rem;
   }
 }
 
