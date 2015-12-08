@@ -420,6 +420,9 @@ footer{
   body{
     font-size: 20pt;
   }
+  p{
+    line-height: 110%;
+  }
   .comic p{
     width: 18rem;
   }
