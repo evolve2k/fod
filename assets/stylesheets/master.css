@@ -29,6 +29,7 @@ body{
 .content{
   background-color: white;
   opacity: 50%;
+  clear: both;
 }
 
 .content p{
