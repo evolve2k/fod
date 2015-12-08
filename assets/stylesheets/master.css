@@ -215,7 +215,6 @@ ol{
   background-color: #64C236;
 }
 .grass-dirt{
-  height: 50rem;
   /*background: linear-gradient(#64C236, #1D0500);*/
 }
 
@@ -224,8 +223,13 @@ ol{
 }
 
 .dirt{
-  height: 60rem;
-  /*background-color: #A9823D;*/
+  height: 10rem;
+  background-color: #5c3d06;
+  background-image: url("../vectors/grass-roots.svg");
+  background-position: center top;
+  background-repeat: repeat-x;
+  background-size: 50rem;
+  padding-bottom: 1rem;
 }
 
 .dirt-earth{
@@ -237,6 +241,11 @@ ol{
 .green-area{
   background-color: #64C236;
   color: #64C236;
+  padding-bottom: 2rem;
+}
+
+.green-area p{
+  color: #1b340e;
 }
 
 #needed{
@@ -246,10 +255,6 @@ ol{
 
 #needed h2{
   color: #64C236;
-}
-
-.green-area p{
-  color: #0c1707;
 }
 
 #needed > section{
