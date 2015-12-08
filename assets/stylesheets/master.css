@@ -291,6 +291,12 @@ section{
   margin: 0 auto;
 }
 
+blockquote{
+  border-left: solid #4DB9FF;
+  padding-left: 1rem;
+  border-width: 3px;
+}
+
 a{
   color: inherit;
 }
