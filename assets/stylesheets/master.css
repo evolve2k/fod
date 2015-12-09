@@ -305,6 +305,7 @@ ol{
 iframe{
   height: 12.65rem;   /* .575 */
   width: 22rem;
+  max-width: 100%;
 }
 
 #definition-of-fod{
